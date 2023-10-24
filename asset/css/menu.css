@@ -1,0 +1,43 @@
+
+#menu__content .menu__header {
+    margin-bottom: 24px;
+}
+
+.menu__header h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.menu__list .menu__item {
+    margin-bottom: 32px;
+}
+
+.menu__item-img {
+    margin-bottom: 8px;
+}
+
+.menu__item-img img {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.menu__item-img:hover {
+    transform: scale(1.02);
+}
+
+.menu__item-info .price {
+    font-size: 14px;
+    color: #777;
+    padding-top: 8px;
+}
+
+.menu__item-link > a {
+    color: #000;
+    font-size: 18px;
+    transition: all 0.2s ease-in-out 0.1s;
+}
+
+.menu__item-link:hover > a {
+    color: #b68834;
+}
+
